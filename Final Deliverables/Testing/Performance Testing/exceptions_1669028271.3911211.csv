@@ -1,0 +1,11 @@
+Count,Message,Traceback,Nodes
+3,tuple index out of range,"  File ""C:\Users\preetha sheeba\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 347, in run
+    self.execute_next_task()
+  File ""C:\Users\preetha sheeba\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 372, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""C:\Users\preetha sheeba\AppData\Local\Programs\Python\Python311\Lib\site-packages\locust\user\task.py"", line 493, in execute_task
+    task(self.user)
+  File ""D:\AJITH\Sign in form1 (2)\Web Application\locustfile.py"", line 23, in home
+    data=data[random.randint(0,3)], headers=post_headers)
+         ~~~~^^^^^^^^^^^^^^^^^^^^^
+",local
