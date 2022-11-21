@@ -1,0 +1,249 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	background-color:#f6f7f9;
+}
+/*Header styles*/
+header ul li{
+	display:inline-block;
+	padding:15px;
+}
+header ul{
+	background-color:#0f9fd8;
+	padding:0 80px;
+}
+header a{
+	color:white;
+	font-size:20px;
+	text-decoration:none;
+}
+header .li-last{
+	float:right;
+}
+header .li-last i{
+	padding-right:10px;
+}
+/*Loan Offer Styles*/
+#loan .title{
+	text-align:center;
+	margin:15px 0;
+}
+#loan .title h1{
+	font-size:40px;
+	margin:15px 0;
+}
+#loan .title p{
+	font-size:20px;
+	margin-bottom:15px;
+}
+#loan .title .border{
+	width:80px;
+	height:2px;
+	background-color:#f55020;
+	margin:auto;
+	border-radius:5px;
+}
+#loan .row .col{
+	width:33.33%;
+	float:left;
+}
+#loan .row{
+	overflow:hidden;
+	padding:20px 80px;
+}
+#loan .style{
+	padding:30px;
+	background-color:white;
+	margin:0 15px;
+	box-shadow:0 0 10px #e6e6e6;
+}
+#loan .style i{
+	font-size:20px;
+	color:#f55020;
+	margin-bottom:15px;
+}
+#loan .style h3{
+	font-size:25px;
+	margin-bottom:15px;
+}
+#loan .style p{
+	color:#aaaaaa;
+	line-height:25px;
+	text-align:justify;
+}
+/*Application Style*/
+#application .title{
+	text-align:center;
+	margin:15px 0;
+}
+#application .title h1{
+	font-size:40px;
+	margin:15px 0;
+}
+#application .title p{
+	font-size:20px;
+	margin-bottom:15px;
+}
+#application .title .border{
+	width:80px;
+	height:2px;
+	background-color:#f55020;
+	margin:auto;
+	border-radius:5px;
+}
+#application .row .col{
+	width:50%;
+	float:left;
+}
+#application .row{
+	overflow:hidden;
+	padding:20px 80px;
+}
+#application .card{
+	border:2px solid #e6e6e6;
+	margin-bottom:8px;
+}
+#application .card-group{
+	padding:0 15px;	
+}
+#application .card-header{
+	border:2px solid #e6e6e6;
+	background:#f7f7f7;
+	padding:15px 20px;
+}
+#application .card-header i{
+	color:#f55020;
+	font-size:20px;
+	font-weight:bold;
+	padding-right:25px;
+}
+#application .card-body{
+	background-color:white;
+	padding:30px;
+	line-height:25px;
+}
+#application .card-body.hide{
+	display:none;
+}
+#application img{
+	width:100%;
+	height:330px;
+}	
+/*News Styles*/
+#news .title{
+	text-align:center;
+	margin:15px 0;
+}
+#news .title h1{
+	font-size:40px;
+	margin:15px 0;
+}
+#news .title p{
+	font-size:20px;
+	margin-bottom:15px;
+}
+#news .title .border{
+	width:80px;
+	height:2px;
+	background-color:#f55020;
+	margin:auto;
+	border-radius:5px;
+}
+#news .row .col{
+	width:33.33%;
+	float:left;
+}
+#news .row{
+	overflow:hidden;
+	padding:20px 80px;
+}
+#news .card img{
+	width:100%;
+	height:250px;
+}
+#news .card{
+	margin:15px;
+	border:2px solid #f2f4f5;
+}
+#news .card-body{
+	background:white;
+	padding:30px;
+}
+#news .card-footer{
+	padding:20px 15px;
+	background:#f7f7f7;
+	border-top:2px solid #f2f4f5;
+}
+#news .card-body h4{
+	color:#f55020;
+	margin-bottom:15px;
+	font-size:20px;
+}
+#news .card-body p{
+	line-height:25px;
+}
+/*Footer Style*/
+footer{
+	background-color:black;
+}
+footer .row1 .col{
+	width:25%;
+	float:left;
+	color:white;
+	padding:15px;
+}
+footer .row1{
+	overflow:hidden;
+	padding:20px 80px;
+}
+footer .row1 .col h3{
+	font-size:25px;
+	margin-bottom:10px;
+}
+footer p{
+	font-size:18px;
+}
+footer .row1 .col p{
+	line-height:40px;
+}
+footer .row1 .col .style{
+	color:#f55020
+}
+footer .style1{
+	color:#515254
+}
+footer .row1 .col .row .col{
+	width:33.33%;
+	border:2px double #191c1b;
+	padding:2px;
+}
+footer input{
+	background-color:black;
+	padding:20px 0;
+	border:2px solid #141617;
+}
+footer .row2 .col{
+	width:50%;
+	float:left;
+	color:white;
+	padding:10px 5px;
+	border-top:2px solid #141414;
+}
+footer .row2{
+	overflow:hidden;
+	padding:0 80px;
+	background-color:#141414;
+}
+footer .row2 .col span{
+	color:#f55020;
+}
+footer .row2 i{
+	padding:15px;
+}
+footer .row2 .col.style{
+
+    float:right;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign in & Sign up Form</title>
+  <link rel="stylesheet" href="../static/css/style.css" />
+</head>
+
+<body>
+  <main class="main">
+    <div class="box">
+      <div class="inner-box">
+        <div class="forms-wrap">
+          <form action="/login" autocomplete="off" method="POST" name="sign-in-form" class="sign-in-form">
+            <div class="logo">
+              <h1 style="color:white"><b>BANK LOAN APPROVAL</b></h1>
+            </div>
+
+            <div class="heading">
+              <h2>Welcome Back</h2>
+              <h6>Not registred yet?</h6>
+              <h3><b><a href="#" class="toggle">Register</a></b></h3>
+            </div>
+
+            <div class="actual-form">
+              <div class="input-wrap">
+                <input type="email" name="email" minlength="4" class="input-field" autocomplete="off" required />
+                <label>E-mail</label>
+              </div>
+
+              <div class="input-wrap">
+                <input type="password" name="password" minlength="4" class="input-field" autocomplete="off" required />
+                <label>Password</label>
+              </div>
+
+              <input type="submit" value="Sign In" class="sign-btn" />
+            </div>
+          </form>
+
+          <form action="/register" autocomplete="off" method="POST" name="sign-up-form" class="sign-up-form">
+            <div class="logo">
+              <h1 style="color: white;"><b>BANK LOAN APPROVAL</b></h1>
+            </div>
+            <div class="heading">
+              <h2>Get Started</h2>
+              <h6>Already have an account?</h6>
+              <h5><a class="toggle">Sign in</a></h5>
+            </div>
+
+            <div class="actual-form">
+              <div class="input-wrap">
+                <input type="text" name="name" minlength="4" class="input-field" autocomplete="off" required />
+                <label>Name</label>
+              </div>
+
+              <div class="input-wrap">
+                <input type="email" name="email" class="input-field" autocomplete="off" required />
+                <label>Email</label>
+              </div>
+
+              <div class="input-wrap">
+                <input type="password" name="password" minlength="4" class="input-field" autocomplete="off" required />
+                <label>Password</label>
+              </div>
+
+              <input type="submit" value="Register" class="sign-btn" />
+            </div>
+          </form>
+        </div>
+
+        <div class="carousel">
+          <div class="images-wrapper">
+            <img src="../static/images/image1.png" class="image img-1 show" width="800" height="450">
+            <img src="../static/images/image2.png" class="image img-2" width="800" height="450">
+            <img src="../static/images/image3.png" class="image img-3" width="800" height="450">
+          </div>
+          <div class="text-slider">
+            <div class="text-wrap">
+              <div class="text-group">
+                <h2>Personal Loan , Business Loan</h2>
+                <h2> Home Loan , Educational Loan</h2>
+              </div>
+            </div>
+            <div class="bullets">
+              <span class="active" data-value="1"></span>
+              <span data-value="2"></span>
+              <span data-value="3"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Javascript file -->
+
+  <script src="../static/js/app.js"></script>
+</body>
+
+</html>

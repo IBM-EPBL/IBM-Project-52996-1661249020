@@ -1,0 +1,44 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    background-image: url('../images/loan.png');
+    background-size:90%;
+}
+form{
+    padding:12%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-srif;
+}
+
+#submit{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #02ab27;
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+form h2{
+    color:rgb(55, 110, 0);
+}
+
+#nsp{
+    width: 20%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+:focus{
+    border-color: rgb(0, 255, 13);
+    box-shadow: 0 0 15px 0 rgb(0, 255, 13);
+}
